@@ -1,0 +1,15 @@
+# Python virtual environment
+venv/
+/venv/
+__pycache__/
+
+# Generated model files
+models/
+
+# Environment variables (if you have them)
+.env
+
+# IDE and OS files
+.vscode/
+.idea/
+*.DS_Store

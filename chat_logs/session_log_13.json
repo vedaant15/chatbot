@@ -1,0 +1,97 @@
+[
+  {
+    "role": "bot",
+    "message": "Welcome to the College Virtual Assistant! \ud83e\udd16 I'm here to help. What would you like to know about?",
+    "timestamp": "2025-08-21T23:13:12.794419"
+  },
+  {
+    "role": "user",
+    "message": "Placements",
+    "timestamp": "2025-08-21T23:13:13.911580"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the information about placements. What do you want to know?",
+    "timestamp": "2025-08-21T23:13:13.911580"
+  },
+  {
+    "role": "user",
+    "message": "Placement Packages",
+    "timestamp": "2025-08-21T23:13:15.153258"
+  },
+  {
+    "role": "bot",
+    "message": "The average package offered last year was X LPA, with the highest package being Y LPA. Detailed statistics are available in our annual placement report.",
+    "timestamp": "2025-08-21T23:13:15.153258"
+  },
+  {
+    "role": "user",
+    "message": "no",
+    "timestamp": "2025-08-21T23:13:18.332181"
+  },
+  {
+    "role": "bot",
+    "message": "My apologies, I'm still learning. Could you simplify your query?",
+    "timestamp": "2025-08-21T23:13:18.344209"
+  },
+  {
+    "role": "user",
+    "message": "Placements",
+    "timestamp": "2025-08-21T23:13:22.372421"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the information about placements. What do you want to know?",
+    "timestamp": "2025-08-21T23:13:22.372421"
+  },
+  {
+    "role": "user",
+    "message": "Placement Process",
+    "timestamp": "2025-08-21T23:13:24.207742"
+  },
+  {
+    "role": "bot",
+    "message": "Our placement process begins with pre-placement talks, followed by tests, group discussions, and personal interviews. The placement cell provides training for all stages.",
+    "timestamp": "2025-08-21T23:13:24.207742"
+  },
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-08-21T23:13:25.460692"
+  },
+  {
+    "role": "bot",
+    "message": "Welcome to the College Virtual Assistant! \ud83e\udd16 I'm here to help. What would you like to know about?",
+    "timestamp": "2025-08-21T23:13:25.460692"
+  },
+  {
+    "role": "user",
+    "message": "Admissions",
+    "timestamp": "2025-08-21T23:17:19.660647"
+  },
+  {
+    "role": "bot",
+    "message": "Sure, I can help with admissions. What would you like to know about?",
+    "timestamp": "2025-08-21T23:17:19.660647"
+  },
+  {
+    "role": "user",
+    "message": "Fees Structure",
+    "timestamp": "2025-08-21T23:17:21.403198"
+  },
+  {
+    "role": "bot",
+    "message": "The detailed fee structure for all courses is available on our website. Would you like a link to the fees page?",
+    "timestamp": "2025-08-21T23:17:21.403198"
+  },
+  {
+    "role": "user",
+    "message": "bca",
+    "timestamp": "2025-08-21T23:17:25.560913"
+  },
+  {
+    "role": "bot",
+    "message": "I'm here to help with college info - could you clarify your question?",
+    "timestamp": "2025-08-21T23:17:27.300282"
+  }
+]

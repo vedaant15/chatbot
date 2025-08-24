@@ -1,0 +1,92 @@
+[
+  {
+    "role": "user",
+    "message": "hola",
+    "timestamp": "2025-08-19T22:55:18.244027"
+  },
+  {
+    "role": "bot",
+    "message": "I'm not sure about that. Can you ask something else?",
+    "timestamp": "2025-08-19T22:55:18.244027"
+  },
+  {
+    "role": "user",
+    "message": "hola",
+    "timestamp": "2025-08-19T22:55:24.856449"
+  },
+  {
+    "role": "bot",
+    "message": "That's outside my current knowledge. Can I assist you with something else related to the college?",
+    "timestamp": "2025-08-19T22:55:24.856449"
+  },
+  {
+    "role": "user",
+    "message": "hi",
+    "timestamp": "2025-08-19T22:55:30.776496"
+  },
+  {
+    "role": "bot",
+    "message": "Greetings! How may I help you?",
+    "timestamp": "2025-08-19T22:55:30.776496"
+  },
+  {
+    "role": "user",
+    "message": "wheres the college",
+    "timestamp": "2025-08-19T23:05:01.903504"
+  },
+  {
+    "role": "bot",
+    "message": "That's outside my current knowledge. Can I assist you with something else related to the college?",
+    "timestamp": "2025-08-19T23:05:01.903504"
+  },
+  {
+    "role": "user",
+    "message": "whats the fees structure",
+    "timestamp": "2025-08-19T23:10:59.285482"
+  },
+  {
+    "role": "bot",
+    "message": "I'm here to help with college info - could you clarify your question?",
+    "timestamp": "2025-08-19T23:10:59.285482"
+  },
+  {
+    "role": "user",
+    "message": "what about the faculty",
+    "timestamp": "2025-08-19T23:12:36.901385"
+  },
+  {
+    "role": "bot",
+    "message": "I'm not sure about that. Can you ask something else?",
+    "timestamp": "2025-08-19T23:12:36.901385"
+  },
+  {
+    "role": "user",
+    "message": "faculty",
+    "timestamp": "2025-08-19T23:12:43.049916"
+  },
+  {
+    "role": "bot",
+    "message": "Which program's faculty information are you looking for, such as BCA or MBA?",
+    "timestamp": "2025-08-19T23:12:43.049916"
+  },
+  {
+    "role": "user",
+    "message": "bba",
+    "timestamp": "2025-08-19T23:12:45.486726"
+  },
+  {
+    "role": "bot",
+    "message": "You can find the faculty information for the BBA program at this link: https://www.iitmjanakpuri.com/faculty/bcom_bba.php",
+    "timestamp": "2025-08-19T23:12:45.486726"
+  },
+  {
+    "role": "user",
+    "message": "and bca faculty",
+    "timestamp": "2025-08-19T23:13:14.752036"
+  },
+  {
+    "role": "bot",
+    "message": "I'm here to help with college info - could you clarify your question?",
+    "timestamp": "2025-08-19T23:13:14.752036"
+  }
+]

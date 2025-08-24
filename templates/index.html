@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>College Chatbot</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+  <div class="chatbot-button" id="chatbot-button">💬</div>
+
+  <div class="chatbot-container" id="chatbot-container">
+    <h2>College Chatbot</h2>
+    <div id="chatbox"></div>
+    <div id="options-container"></div> <div class="input-container">
+      <input type="text" id="input" placeholder="Type your message here..." />
+      <button id="send">Send</button>
+    </div>
+  </div>
+
+  <script>
+    const chatbox = document.getElementById("chatbox");
+    const input = document.getElementById("input");
+    const sendBtn = document.getElementById("send");
+    const chatbotButton = document.getElementById("chatbot-button");
+    const chatbotContainer = document.getElementById("chatbot-container");
+    const optionsContainer = document.getElementById("options-container"); // NEW
+
+    let isBotTyping = false; // Prevent multiple requests
+
+    chatbotButton.addEventListener("click", function() {
+      chatbotContainer.classList.toggle("active");
+      if (chatbotContainer.classList.contains("active") && chatbox.children.length === 0) {
+        // Initial message on first open
+        sendMessage("start");
+      }
+    });
+
+    function formatMessage(text) {
+        const urlRegex = /(https?:\/\/[^\s]+)/g;
+        // Also handle newlines for better formatting
+        let formattedText = text.replace(urlRegex, url => `<a href="${url}" target="_blank">${url}</a>`);
+        return formattedText.replace(/\n/g, '<br>');
+    }
+
+    function appendMessage(sender, text) {
+      const div = document.createElement("div");
+      div.className = "message " + sender;
+      div.innerHTML = formatMessage(text);
+      chatbox.appendChild(div);
+      chatbox.scrollTop = chatbox.scrollHeight;
+    }
+
+    function renderOptions(options) {
+      optionsContainer.innerHTML = ""; 
+      if (options && options.length > 0) {
+        options.forEach(option => {
+          const button = document.createElement("button");
+          button.className = "option-button";
+          button.textContent = option.text;
+          button.dataset.next_node = option.next_node; 
+          button.addEventListener("click", () => {
+            sendMessage(option.text);
+            optionsContainer.innerHTML = ""; 
+          });
+          optionsContainer.appendChild(button);
+        });
+      }
+      // Always keep the input enabled and placeholder standard
+      input.disabled = false; 
+      input.placeholder = "Type your message here...";
+    }
+
+    async function sendMessage(messageText) {
+      const userText = (typeof messageText === 'string') ? messageText.trim() : input.value.trim();
+      if (!userText || isBotTyping) return;
+
+      if (userText.toLowerCase() !== 'start') {
+        appendMessage("user", userText);
+      }
+      
+      input.value = "";
+      isBotTyping = true;
+      appendMessage("bot", "Typing..."); // Typing indicator
+
+      try {
+        const response = await fetch(`/get?msg=${encodeURIComponent(userText)}`);
+        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+        
+        const data = await response.json();
+        
+        // Remove "Typing..." message
+        chatbox.removeChild(chatbox.lastChild); 
+
+        appendMessage("bot", data.message);
+        renderOptions(data.options); // Render new buttons
+
+      } catch (error) {
+        console.error("Error fetching response:", error);
+        chatbox.removeChild(chatbox.lastChild); // Remove "Typing..." on error
+        appendMessage("bot", "Oops! Something went wrong. Please try again later.");
+      } finally {
+        isBotTyping = false;
+        chatbox.scrollTop = chatbox.scrollHeight;
+      }
+    }
+
+    sendBtn.addEventListener("click", () => sendMessage());
+    input.addEventListener("keypress", function (event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        sendMessage();
+      }
+    });
+  </script>
+</body>
+</html>

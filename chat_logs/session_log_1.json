@@ -1,0 +1,92 @@
+[
+  {
+    "role": "user",
+    "message": "heyy",
+    "timestamp": "2025-08-19T22:41:26.290281"
+  },
+  {
+    "role": "bot",
+    "message": "Sorry, I didn't understand that. Could you please rephrase?",
+    "timestamp": "2025-08-19T22:41:26.290281"
+  },
+  {
+    "role": "user",
+    "message": "hey",
+    "timestamp": "2025-08-19T22:41:48.584538"
+  },
+  {
+    "role": "bot",
+    "message": "Greetings! How may I help you?",
+    "timestamp": "2025-08-19T22:41:48.584538"
+  },
+  {
+    "role": "user",
+    "message": "how are you",
+    "timestamp": "2025-08-19T22:42:02.150181"
+  },
+  {
+    "role": "bot",
+    "message": "Doing well! Feel free to ask me anything about the college.",
+    "timestamp": "2025-08-19T22:42:02.150181"
+  },
+  {
+    "role": "user",
+    "message": "where is your college",
+    "timestamp": "2025-08-19T22:42:10.120764"
+  },
+  {
+    "role": "bot",
+    "message": "I'm just a chatbot, trying my best to understand. Please try another question.",
+    "timestamp": "2025-08-19T22:42:10.120764"
+  },
+  {
+    "role": "user",
+    "message": "where is the campus",
+    "timestamp": "2025-08-19T22:42:23.283157"
+  },
+  {
+    "role": "bot",
+    "message": "Our campus is located in Janakpuri, New Delhi. You can find our location on Google Maps here: https://www.google.com/maps/place/IITM+Janakpuri+Delhi+%7C+Institute+of+Innovation+in+Technology+%26+Management+(IITM)/@28.6103722,77.0992931,17z/data=!3m1!4b1!4m6!3m5!1s0x390d1ba9daf6eb2f:0x82faa5622cd1bfe3!8m2!3d28.6103722!4d77.1018734!16s%2Fg%2F11smynqzfj?entry=ttu&g_ep=EgoyMDI1MDgxMy4wIKXMDSoASAFQAw%3D%3D",
+    "timestamp": "2025-08-19T22:42:23.283157"
+  },
+  {
+    "role": "user",
+    "message": "and how to reach",
+    "timestamp": "2025-08-19T22:43:31.740768"
+  },
+  {
+    "role": "bot",
+    "message": "That's outside my current knowledge. Can I assist you with something else related to the college?",
+    "timestamp": "2025-08-19T22:43:31.740768"
+  },
+  {
+    "role": "user",
+    "message": "whats the admission process",
+    "timestamp": "2025-08-19T22:43:52.592184"
+  },
+  {
+    "role": "bot",
+    "message": "Make sure to check the IPU admission portal for the latest requirements and deadlines for all courses.",
+    "timestamp": "2025-08-19T22:43:52.592184"
+  },
+  {
+    "role": "user",
+    "message": "and what about bca fees structure",
+    "timestamp": "2025-08-19T22:44:08.854673"
+  },
+  {
+    "role": "bot",
+    "message": "I'm not sure about that. Can you ask something else?",
+    "timestamp": "2025-08-19T22:44:08.854673"
+  },
+  {
+    "role": "user",
+    "message": "what about fees structure",
+    "timestamp": "2025-08-19T22:44:22.091848"
+  },
+  {
+    "role": "bot",
+    "message": "I'm just a chatbot, trying my best to understand. Please try another question.",
+    "timestamp": "2025-08-19T22:44:22.091848"
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "role": "bot",
+    "message": "Welcome to the College Virtual Assistant! \ud83e\udd16 I'm here to help. What would you like to know about?",
+    "timestamp": "2025-08-21T22:57:19.047631"
+  },
+  {
+    "role": "user",
+    "message": "Contact",
+    "timestamp": "2025-08-21T22:57:21.817765"
+  },
+  {
+    "role": "bot",
+    "message": "How would you like to contact us?",
+    "timestamp": "2025-08-21T22:57:21.817765"
+  },
+  {
+    "role": "user",
+    "message": "Let us Contact You",
+    "timestamp": "2025-08-21T22:57:25.136729"
+  },
+  {
+    "role": "bot",
+    "message": "Please fill out this Google Form with your details, and our admissions team will get in touch with you shortly: [Your Google Form Link Here]\n\nWhat other question do you have? You can type it below.",
+    "timestamp": "2025-08-21T22:57:25.136729"
+  },
+  {
+    "role": "user",
+    "message": "whats the fees procedure",
+    "timestamp": "2025-08-21T22:57:36.725803"
+  },
+  {
+    "role": "bot",
+    "message": "My apologies, I'm still learning. Could you simplify your query?",
+    "timestamp": "2025-08-21T22:57:38.280318"
+  },
+  {
+    "role": "user",
+    "message": "Placements",
+    "timestamp": "2025-08-21T22:58:34.122022"
+  },
+  {
+    "role": "bot",
+    "message": "Our dedicated placement cell works hard to connect students with top companies. You can find placement reports and statistics on our website.",
+    "timestamp": "2025-08-21T22:58:34.125539"
+  },
+  {
+    "role": "bot",
+    "message": "Welcome to the College Virtual Assistant! \ud83e\udd16 I'm here to help. What would you like to know about?",
+    "timestamp": "2025-08-21T22:59:09.960719"
+  },
+  {
+    "role": "user",
+    "message": "hi",
+    "timestamp": "2025-08-21T22:59:12.261571"
+  },
+  {
+    "role": "bot",
+    "message": "Greetings! How may I help you?",
+    "timestamp": "2025-08-21T22:59:12.264564"
+  },
+  {
+    "role": "user",
+    "message": "how are you",
+    "timestamp": "2025-08-21T22:59:16.069195"
+  },
+  {
+    "role": "bot",
+    "message": "I'm functioning perfectly, thank you. How can I assist you?",
+    "timestamp": "2025-08-21T22:59:16.071194"
+  },
+  {
+    "role": "user",
+    "message": "Contact",
+    "timestamp": "2025-08-21T22:59:17.617907"
+  },
+  {
+    "role": "bot",
+    "message": "How would you like to contact us?",
+    "timestamp": "2025-08-21T22:59:17.617907"
+  },
+  {
+    "role": "user",
+    "message": "Let us Contact You",
+    "timestamp": "2025-08-21T22:59:20.306029"
+  },
+  {
+    "role": "bot",
+    "message": "Please fill out this Google Form with your details, and our admissions team will get in touch with you shortly: [Your Google Form Link Here]\n\nWhat other question do you have? You can type it below.",
+    "timestamp": "2025-08-21T22:59:20.306029"
+  },
+  {
+    "role": "user",
+    "message": "and tell me about fees",
+    "timestamp": "2025-08-21T22:59:28.137666"
+  },
+  {
+    "role": "bot",
+    "message": "My apologies, I'm still learning. Could you simplify your query?",
+    "timestamp": "2025-08-21T22:59:28.141922"
+  },
+  {
+    "role": "user",
+    "message": "fees structure",
+    "timestamp": "2025-08-21T22:59:34.315455"
+  },
+  {
+    "role": "bot",
+    "message": "It seems you're asking about fees. Could you please specify which program (e.g., BCA, MBA)?",
+    "timestamp": "2025-08-21T22:59:34.317480"
+  },
+  {
+    "role": "user",
+    "message": "mba",
+    "timestamp": "2025-08-21T22:59:36.394074"
+  },
+  {
+    "role": "bot",
+    "message": "The fee structure for the MBA program is available on our website. Please check the admissions section for a full breakdown.",
+    "timestamp": "2025-08-21T22:59:36.394074"
+  }
+]

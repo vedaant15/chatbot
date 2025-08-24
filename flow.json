@@ -1,0 +1,122 @@
+{
+  "start": {
+    "message": "Welcome to the College Virtual Assistant! 🤖 I'm here to help. What would you like to know about?",
+    "options": [
+      { "text": "Campus", "next_node": "campus_menu" },
+      { "text": "Admissions", "next_node": "admissions_menu" },
+      { "text": "Contact", "next_node": "contact_menu" },
+      { "text": "Placements", "next_node": "placements_menu" },
+      { "text": "Attendance", "next_node": "attendance_info" }
+    ]
+  },
+  "campus_menu": {
+    "message": "I can provide information about our campus. What would you like to know about?",
+    "options": [
+      { "text": "Infrastructure", "next_node": "infrastructure_info" },
+      { "text": "Faculty", "next_node": "faculty_info" },
+      { "text": "Canteen", "next_node": "canteen_info" },
+      { "text": "Back to Main Menu", "next_node": "start" }
+    ]
+  },
+  "admissions_menu": {
+    "message": "Sure, I can help with admissions. What would you like to know about?",
+    "options": [
+      { "text": "Admission Process", "next_node": "admission_process_info" },
+      { "text": "College Rankings", "next_node": "college_rankings_info" },
+      { "text": "Fees Structure", "next_node": "fees_structure_info" },
+      { "text": "Back to Main Menu", "next_node": "start" }
+    ]
+  },
+  "contact_menu": {
+    "message": "How would you like to contact us?",
+    "options": [
+      { "text": "Contact Us", "next_node": "contact_us_info" },
+      { "text": "Let us Contact You", "next_node": "let_us_contact_info" },
+      { "text": "Back to Main Menu", "next_node": "start" }
+    ]
+  },
+  "placements_menu": {
+    "message": "Here is the information about placements. What do you want to know?",
+    "options": [
+      { "text": "Placement Companies", "next_node": "placement_companies_info" },
+      { "text": "Placement Packages", "next_node": "placement_packages_info" },
+      { "text": "Placement Process", "next_node": "placement_process_info" },
+      { "text": "Back to Main Menu", "next_node": "start" }
+    ]
+  },
+  "post_answer_menu": {
+    "message": "Can I help with anything else?",
+    "options": [
+        { "text": "Back to Main Menu", "next_node": "start" },
+        { "text": "Ask a different question", "next_node": "faq_prompt" }
+    ]
+  },
+  "faq_prompt": {
+    "message": "Of course. Please type your question below.",
+    "mode": "faq"
+  },
+  "infrastructure_info": {
+    "response": "Our campus features state-of-the-art labs, a modern library, and spacious classrooms. You can find a virtual tour on our website.",
+    "next_node": "post_answer_menu"
+  },
+  "faculty_info": {
+    "message": "Happy to help. Which department's faculty list would you like to see?",
+    "options": [
+        {"text": "BCA", "next_node": "final_faculty_answer"},
+        {"text": "MCA", "next_node": "final_faculty_answer"},
+        {"text": "BBA", "next_node": "final_faculty_answer"},
+        {"text": "MBA", "next_node": "final_faculty_answer"},
+        {"text": "B.COM", "next_node": "final_faculty_answer"},
+        {"text": "BA(JMC)", "next_node": "final_faculty_answer"},
+        {"text": "Back", "next_node": "campus_menu"}
+    ]
+  },
+  "canteen_info": {
+    "response": "The college canteen offers a variety of hygienic and affordable food options for students and staff.",
+    "next_node": "post_answer_menu"
+  },
+  "attendance_info": {
+    "response": "Students are expected to maintain a minimum of 75% attendance. You can check your detailed attendance record by logging into the student portal on the college website.",
+    "next_node": "post_answer_menu"
+  },
+  "admission_process_info": {
+    "response": "The admission process is handled through the IPU portal. For detailed steps, please visit the official admissions page on our website.",
+    "next_node": "post_answer_menu"
+  },
+  "college_rankings_info": {
+    "response": "Our college is consistently ranked among the top institutions. You can find the latest NIRF and other rankings on our 'About Us' page.",
+    "next_node": "post_answer_menu"
+  },
+  "fees_structure_info": {
+    "message": "Of course. Which program's fee structure are you interested in?",
+    "options": [
+        {"text": "BCA", "next_node": "final_fee_answer"},
+        {"text": "MCA", "next_node": "final_fee_answer"},
+        {"text": "BBA", "next_node": "final_fee_answer"},
+        {"text": "MBA", "next_node": "final_fee_answer"},
+        {"text": "B.COM", "next_node": "final_fee_answer"},
+        {"text": "BAJMC", "next_node": "final_fee_answer"},
+        {"text": "Back", "next_node": "admissions_menu"}
+    ]
+  },
+  "contact_us_info": {
+    "response": "You can reach us at:\n- Phone: 011-28525882 / 28520239\n- Email: director@iitmipu.ac.in",
+    "next_node": "post_answer_menu"
+  },
+  "let_us_contact_info": {
+    "response": "Please fill out this Google Form with your details, and our admissions team will get in touch with you shortly: [Your Google Form Link Here]",
+    "next_node": "post_answer_menu"
+  },
+  "placement_companies_info": {
+    "response": "We have a wide range of recruiting partners, including top companies like Amazon, Deloitte, and HCL. A full list is available here: https://www.iitmjanakpuri.com/placements/partners.php",
+    "next_node": "post_answer_menu"
+  },
+  "placement_packages_info": {
+    "response": "The average package offered last year was X LPA, with the highest package being Y LPA. Detailed statistics are available in our annual placement report.",
+    "next_node": "post_answer_menu"
+  },
+  "placement_process_info": {
+    "response": "Our placement process begins with pre-placement talks, followed by tests, group discussions, and personal interviews. The placement cell provides training for all stages.",
+    "next_node": "post_answer_menu"
+  }
+}

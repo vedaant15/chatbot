@@ -1,0 +1,32 @@
+[
+  {
+    "role": "user",
+    "message": "start",
+    "timestamp": "2025-08-21T22:51:47.374862"
+  },
+  {
+    "role": "bot",
+    "message": "My apologies, I'm still learning. Could you simplify your query?",
+    "timestamp": "2025-08-21T22:51:48.811467"
+  },
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-08-21T22:51:56.669304"
+  },
+  {
+    "role": "bot",
+    "message": "I'm here to help with college info - could you clarify your question?",
+    "timestamp": "2025-08-21T22:51:56.677451"
+  },
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-08-21T22:51:57.730075"
+  },
+  {
+    "role": "bot",
+    "message": "I'm just a chatbot, trying my best to understand. Please try another question.",
+    "timestamp": "2025-08-21T22:51:57.731962"
+  }
+]
