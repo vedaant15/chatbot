@@ -1,6 +1,6 @@
 {
   "start": {
-    "message": "Hello ,Welcome to the College Virtual Assistant! 🤖 I'm here to help. What would you like to know about?",
+    "message": "Welcome to the College Virtual Assistant! 🤖 I'm here to help. What would you like to know about?",
     "options": [
       { "text": "Campus", "next_node": "campus_menu" },
       { "text": "Admissions", "next_node": "admissions_menu" },
