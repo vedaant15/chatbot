@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "message": "faculty",
+    "timestamp": "2025-08-28T23:54:42.650002"
+  },
+  {
+    "role": "bot",
+    "message": "The details of our esteemed faculty members are available in the 'Academics' or 'Departments' section of the college website.https://www.iitmjanakpuri.com",
+    "timestamp": "2025-08-28T23:54:43.795038"
+  },
+  {
+    "role": "user",
+    "message": "fees",
+    "timestamp": "2025-08-28T23:54:57.139845"
+  },
+  {
+    "role": "bot",
+    "message": "It seems you're asking about fees. Could you please specify which program (e.g., BCA, MBA)?",
+    "timestamp": "2025-08-28T23:54:57.142367"
+  }
+]

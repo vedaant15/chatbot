@@ -150,7 +150,7 @@ def get_faq_response(user_input, session_id):
             fee = course_fees.get(course, "not available for that course")
             return f"The fee for the {course} program is {fee}. For a full breakdown, please visit the college website."
         else:
-            return "I couldn't find a specific course name. Which program are you interested in (e.g., BCA, BBA, MBA)?"
+            return "I couldn't find a specific course name. Which program are you interested in ( BCA, BBA, MBA,B.COM(h),MCA,MBA,BA(JMC))?"
     processed_input = preprocess_text(user_input)
     if not processed_input.strip():
         return random.choice(next((i['responses'] for i in knowledge_base['intents'] if i['tag'] == 'unknown'), ["Could you please rephrase?"]))
@@ -172,7 +172,7 @@ def get_faq_response(user_input, session_id):
              return f"You can find a list of our placement partners here: {placement_partners_link}"
         if predicted_tag == 'fees' and not course:
             session_state[session_id]['state'] = 'awaiting_course_name'
-            return "It seems you're asking about fees. Could you please specify which program (e.g., BCA, MBA)?"
+            return "It seems you're asking about fees. Could you please specify which program ( BCA, BBA, MBA,B.COM(h),MCA,MBA,BA(JMC))?"
         for intent in knowledge_base['intents']:
             if intent['tag'] == predicted_tag:
                 return random.choice(intent['responses'])

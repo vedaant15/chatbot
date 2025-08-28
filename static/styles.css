@@ -141,3 +141,56 @@
     color: white;
     border-color: #007bff;
 }
+/* All of your existing CSS code goes here */
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 768px) {
+    .chatbot-container {
+        width: 90%; /* Use a percentage for width on smaller screens */
+        right: 5%;  /* Center the container horizontally */
+        bottom: 75px; /* Adjust vertical position */
+        max-height: 70vh; /* Allow it to take up more of the screen height */
+        left: 5%; /* Center the container horizontally */
+        transform: translateX(-50%); /* Use a transform to precisely center it */
+    }
+
+    #chatbox {
+        height: calc(85vh - 100px); /* Adjust chatbox height for mobile layout */
+    }
+    
+    .chatbot-button {
+        width: 50px;
+        height: 50px;
+        bottom: 15px;
+        right: 15px;
+    }
+
+    .message {
+        max-width: 90%; /* Allow messages to take up more width */
+    }
+
+    .input-container {
+        flex-direction: column; /* Stack input elements vertically */
+        padding: 10px;
+    }
+
+    #input {
+        width: 100%;
+        margin-bottom: 10px; /* Add space between input and buttons */
+    }
+
+    #send, #end {
+        width: 100%;
+        margin-left: 0; /* Remove horizontal margin */
+        margin-top: 5px; /* Add space between buttons */
+    }
+
+    #options-container {
+        flex-direction: column;
+    }
+
+    .option-button {
+        width: 100%; /* Make option buttons full-width */
+        text-align: center;
+    }
+}

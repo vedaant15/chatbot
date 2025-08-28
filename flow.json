@@ -45,7 +45,7 @@
     ]
   },
   "post_answer_menu": {
-    "message": "Can I help with anything else?",
+    "message": "Can I help with anything else,If yes what is it?",
     "options": [
         { "text": "Back to Main Menu", "next_node": "start" },
         { "text": "Ask a different question", "next_node": "faq_prompt" }
