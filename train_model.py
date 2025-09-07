@@ -65,7 +65,7 @@ def train_and_save_model():
     label_encoder = LabelEncoder()
     y_encoded = label_encoder.fit_transform(y_labels)
     X_train, X_test, y_train, y_test = train_test_split(
-        X_vectorized, y_encoded, test_size=0.2, random_state=42, stratify=y_encoded
+        X_vectorized, y_encoded, test_size=0.3, random_state=123, stratify=y_encoded
     )
 
     # --- NEW: Train LinearSVC Classifier ---
