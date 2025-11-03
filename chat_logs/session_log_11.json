@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "message": "E-Resources",
+    "timestamp": "2025-11-03T13:06:53.696667"
+  },
+  {
+    "role": "bot",
+    "message": "We have two main E-Resource portals. Which one would you like to access?",
+    "timestamp": "2025-11-03T13:06:53.696667"
+  }
+]

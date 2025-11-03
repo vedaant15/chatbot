@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "message": "Admissions",
+    "timestamp": "2025-11-03T09:39:54.296395"
+  },
+  {
+    "role": "bot",
+    "message": "Sure, I can help with admissions. What would you like to know about?",
+    "timestamp": "2025-11-03T09:39:54.296395"
+  },
+  {
+    "role": "user",
+    "message": "Documents for Admission",
+    "timestamp": "2025-11-03T09:39:55.323683"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the complete list of required documents. Click the link to download the PDF: <a href='/static/admission_checklist.pdf' target='_blank'>Admission Documents Checklist.pdf</a>\n\nCan I help with anything else?",
+    "timestamp": "2025-11-03T09:39:55.323683"
+  }
+]

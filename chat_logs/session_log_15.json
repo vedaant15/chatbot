@@ -1,0 +1,42 @@
+[
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-11-03T13:19:30.738618"
+  },
+  {
+    "role": "bot",
+    "message": "Sorry, I didn't understand that. Could you please rephrase?",
+    "timestamp": "2025-11-03T13:19:32.452327"
+  },
+  {
+    "role": "user",
+    "message": "Placements",
+    "timestamp": "2025-11-03T13:19:39.058264"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the information about placements. What do you want to know?",
+    "timestamp": "2025-11-03T13:19:39.058264"
+  },
+  {
+    "role": "user",
+    "message": "Placement Statistics",
+    "timestamp": "2025-11-03T13:19:41.579365"
+  },
+  {
+    "role": "bot",
+    "message": "I have the latest placement statistics. Which course are you interested in?",
+    "timestamp": "2025-11-03T13:19:41.579365"
+  },
+  {
+    "role": "user",
+    "message": "BCA",
+    "timestamp": "2025-11-03T13:19:43.562495"
+  },
+  {
+    "role": "bot",
+    "message": "Here are the Placement Statistics for BCA (2024-25):\n- Placement Percentage: 95.16%\n- Highest Package: 22.30 LPA\n- Average Package: 4.25 LPA\n- Top Recruiters: CISCO, SAP Labs, HCL Tech., Deloitte, TCS, Wipro Technologies, Infosys, Amazon India, & more...\n\nCan I help with anything else?",
+    "timestamp": "2025-11-03T13:19:43.562495"
+  }
+]

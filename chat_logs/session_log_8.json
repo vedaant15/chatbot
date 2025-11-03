@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "message": "Campus",
+    "timestamp": "2025-11-03T09:58:51.311075"
+  },
+  {
+    "role": "bot",
+    "message": "I can provide information about our campus. What would you like to know about?",
+    "timestamp": "2025-11-03T09:58:51.311075"
+  },
+  {
+    "role": "user",
+    "message": "Library Information",
+    "timestamp": "2025-11-03T09:58:52.084792"
+  },
+  {
+    "role": "bot",
+    "message": "You can find all information about the library, including book catalogs, e-resources, and timings, on the official library page: https://www.iitmjanakpuri.com/Library\n\nCan I help with anything else?",
+    "timestamp": "2025-11-03T09:58:52.084792"
+  }
+]

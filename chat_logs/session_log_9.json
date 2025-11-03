@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "message": "E-resources",
+    "timestamp": "2025-11-03T13:02:51.943711"
+  },
+  {
+    "role": "bot",
+    "message": "Sorry, I didn't understand that. Could you please rephrase?",
+    "timestamp": "2025-11-03T13:02:53.763177"
+  },
+  {
+    "role": "user",
+    "message": "E-resources",
+    "timestamp": "2025-11-03T13:03:04.147054"
+  },
+  {
+    "role": "bot",
+    "message": "I'm not sure about that. Can you ask something else?",
+    "timestamp": "2025-11-03T13:03:04.154354"
+  }
+]

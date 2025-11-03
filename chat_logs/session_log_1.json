@@ -1,0 +1,82 @@
+[
+  {
+    "role": "user",
+    "message": "Admissions",
+    "timestamp": "2025-11-02T21:54:27.746547"
+  },
+  {
+    "role": "bot",
+    "message": "Sure, I can help with admissions. What would you like to know about?",
+    "timestamp": "2025-11-02T21:54:27.746547"
+  },
+  {
+    "role": "user",
+    "message": "Eligibility",
+    "timestamp": "2025-11-02T21:54:29.171253"
+  },
+  {
+    "role": "bot",
+    "message": "Of course. Eligibility criteria are different for each program. Which one are you interested in?",
+    "timestamp": "2025-11-02T21:54:29.171253"
+  },
+  {
+    "role": "user",
+    "message": "BBA",
+    "timestamp": "2025-11-02T21:54:29.896611"
+  },
+  {
+    "role": "bot",
+    "message": "Pass in 12th Class of 10+2 of CBSE or equivalent with a minimum of 50% marks in aggregate* and must also have passed English (core or elective or functional) as a subject.\n\nCan I help with anything else?",
+    "timestamp": "2025-11-02T21:54:29.896611"
+  },
+  {
+    "role": "user",
+    "message": "Ask a different question",
+    "timestamp": "2025-11-02T21:54:35.821186"
+  },
+  {
+    "role": "bot",
+    "message": "Of course. Please type your question below.",
+    "timestamp": "2025-11-02T21:54:35.821186"
+  },
+  {
+    "role": "user",
+    "message": "eligibility",
+    "timestamp": "2025-11-02T21:54:42.394222"
+  },
+  {
+    "role": "bot",
+    "message": "Eligibility is different for each program. Which program are you interested in (e.g., BCA, MBA)?",
+    "timestamp": "2025-11-02T21:54:48.366835"
+  },
+  {
+    "role": "user",
+    "message": "MBa",
+    "timestamp": "2025-11-02T21:54:55.183666"
+  },
+  {
+    "role": "bot",
+    "message": "Any recognized 3 years or more Bachelor's Degree in any discipline with a minimum of 50% marks in aggregate.\nOR\nBachelor's Degree in Engineering, Technology or any other subject with minimum of 50% marks in aggregate or any qualification recognized as equivalent thereto with minimum of 50% marks in aggregate.\nOR\nPassed the Final Examination of the Institute of Chartered Accountants of India or England, the Institute of Cost and Works Accountants of India or England or the Institute of Company Secretaries of India.",
+    "timestamp": "2025-11-02T21:54:55.185662"
+  },
+  {
+    "role": "user",
+    "message": "Attendance",
+    "timestamp": "2025-11-02T21:55:21.360763"
+  },
+  {
+    "role": "bot",
+    "message": "Students are expected to maintain a minimum of 75% attendance. You can check your detailed attendance record by logging into the student portal on the college website.\n\nCan I help with anything else?",
+    "timestamp": "2025-11-02T21:55:21.360763"
+  },
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-11-02T21:55:23.884129"
+  },
+  {
+    "role": "bot",
+    "message": "Welcome to the College Virtual Assistant! \ud83e\udd16 I'm here to help. What would you like to know about?",
+    "timestamp": "2025-11-02T21:55:23.884129"
+  }
+]

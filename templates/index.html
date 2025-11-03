@@ -23,50 +23,59 @@
     const sendBtn = document.getElementById("send");
     const chatbotButton = document.getElementById("chatbot-button");
     const chatbotContainer = document.getElementById("chatbot-container");
-    const optionsContainer = document.getElementById("options-container"); // NEW
+    const optionsContainer = document.getElementById("options-container");
 
-    let isBotTyping = false; // Prevent multiple requests
+    let isBotTyping = false;
 
     chatbotButton.addEventListener("click", function() {
       chatbotContainer.classList.toggle("active");
       if (chatbotContainer.classList.contains("active") && chatbox.children.length === 0) {
-        // Initial message on first open
         sendMessage("start");
       }
     });
 
     function formatMessage(text) {
         const urlRegex = /(https?:\/\/[^\s]+)/g;
-        // Also handle newlines for better formatting
         let formattedText = text.replace(urlRegex, url => `<a href="${url}" target="_blank">${url}</a>`);
         return formattedText.replace(/\n/g, '<br>');
     }
 
+    // THIS FUNCTION IS NOW UPDATED
     function appendMessage(sender, text) {
       const div = document.createElement("div");
       div.className = "message " + sender;
-      div.innerHTML = formatMessage(text);
+      if (sender === "bot") {
+        // NEW CHECK: If text already has an HTML link, render it directly.
+        // Otherwise, format it to find and create links.
+        if (text.includes("<a href")) {
+          div.innerHTML = text.replace(/\n/g, '<br>'); // Still allow newlines
+        } else {
+          div.innerHTML = formatMessage(text);
+        }
+      } else {
+        div.textContent = text;
+      }
       chatbox.appendChild(div);
       chatbox.scrollTop = chatbox.scrollHeight;
     }
 
     function renderOptions(options) {
-      optionsContainer.innerHTML = ""; 
+      optionsContainer.innerHTML = ""; // Clear old buttons
       if (options && options.length > 0) {
         options.forEach(option => {
           const button = document.createElement("button");
           button.className = "option-button";
           button.textContent = option.text;
-          button.dataset.next_node = option.next_node; 
+          button.dataset.next_node = option.next_node;
           button.addEventListener("click", () => {
             sendMessage(option.text);
-            optionsContainer.innerHTML = ""; 
+            optionsContainer.innerHTML = ""; // Hide buttons after click
           });
           optionsContainer.appendChild(button);
         });
       }
-      // Always keep the input enabled and placeholder standard
-      input.disabled = false; 
+      // Always keep the input enabled and the placeholder standard
+      input.disabled = false;
       input.placeholder = "Type your message here...";
     }
 
@@ -80,7 +89,8 @@
       
       input.value = "";
       isBotTyping = true;
-      appendMessage("bot", "Typing..."); // Typing indicator
+      optionsContainer.innerHTML = ""; // Clear buttons when sending a message
+      appendMessage("bot", "Typing...");
 
       try {
         const response = await fetch(`/get?msg=${encodeURIComponent(userText)}`);
@@ -88,15 +98,14 @@
         
         const data = await response.json();
         
-        // Remove "Typing..." message
         chatbox.removeChild(chatbox.lastChild); 
 
         appendMessage("bot", data.message);
-        renderOptions(data.options); // Render new buttons
+        renderOptions(data.options);
 
       } catch (error) {
         console.error("Error fetching response:", error);
-        chatbox.removeChild(chatbox.lastChild); // Remove "Typing..." on error
+        chatbox.removeChild(chatbox.lastChild);
         appendMessage("bot", "Oops! Something went wrong. Please try again later.");
       } finally {
         isBotTyping = false;

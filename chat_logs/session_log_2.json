@@ -1,0 +1,92 @@
+[
+  {
+    "role": "user",
+    "message": "Attendance",
+    "timestamp": "2025-11-02T23:01:12.863884"
+  },
+  {
+    "role": "bot",
+    "message": "I can help with attendance. What do you need to know?",
+    "timestamp": "2025-11-02T23:01:12.863884"
+  },
+  {
+    "role": "user",
+    "message": "Check Attendance Policy",
+    "timestamp": "2025-11-02T23:01:14.151664"
+  },
+  {
+    "role": "bot",
+    "message": "Students are expected to maintain a minimum of 75% attendance. You can check your detailed attendance record by logging into the student portal on the college website.\n\nCan I help with anything else?",
+    "timestamp": "2025-11-02T23:01:14.151664"
+  },
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-11-02T23:01:17.061317"
+  },
+  {
+    "role": "bot",
+    "message": "Welcome to the College Virtual Assistant! \ud83e\udd16 I'm here to help. What would you like to know about?",
+    "timestamp": "2025-11-02T23:01:17.061317"
+  },
+  {
+    "role": "user",
+    "message": "Attendance",
+    "timestamp": "2025-11-02T23:01:18.076930"
+  },
+  {
+    "role": "bot",
+    "message": "I can help with attendance. What do you need to know?",
+    "timestamp": "2025-11-02T23:01:18.076930"
+  },
+  {
+    "role": "user",
+    "message": "Medical Information",
+    "timestamp": "2025-11-02T23:01:18.762166"
+  },
+  {
+    "role": "bot",
+    "message": "In case of sickness, you must submit a valid medical certificate to the administration office within one week of rejoining classes. This is required to be considered for medical leave. Please contact your department head for the specific form.\n\nCan I help with anything else?",
+    "timestamp": "2025-11-02T23:01:18.762166"
+  },
+  {
+    "role": "user",
+    "message": "Ask a different question",
+    "timestamp": "2025-11-02T23:01:50.324048"
+  },
+  {
+    "role": "bot",
+    "message": "Of course. Please type your question below.",
+    "timestamp": "2025-11-02T23:01:50.324048"
+  },
+  {
+    "role": "user",
+    "message": "what is the criteria for attendance medical",
+    "timestamp": "2025-11-02T23:02:20.567073"
+  },
+  {
+    "role": "bot",
+    "message": "My apologies, I'm still learning. Could you simplify your query?",
+    "timestamp": "2025-11-02T23:02:22.467999"
+  },
+  {
+    "role": "user",
+    "message": "attendacne medical",
+    "timestamp": "2025-11-02T23:02:42.485287"
+  },
+  {
+    "role": "bot",
+    "message": "I'm just a chatbot, trying my best to understand. Please try another question.",
+    "timestamp": "2025-11-02T23:02:42.491877"
+  },
+  {
+    "role": "user",
+    "message": "attendance medical",
+    "timestamp": "2025-11-02T23:02:55.812495"
+  },
+  {
+    "role": "bot",
+    "message": "In case of sickness, you must submit a valid medical certificate to the administration office within one week of rejoining classes. This is required to be considered for medical leave. Please contact your department head for the specific form.",
+    "timestamp": "2025-11-02T23:02:55.825625"
+  }
+]

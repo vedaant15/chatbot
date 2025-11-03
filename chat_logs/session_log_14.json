@@ -1,0 +1,72 @@
+[
+  {
+    "role": "user",
+    "message": "E-Resources",
+    "timestamp": "2025-11-03T13:10:07.654538"
+  },
+  {
+    "role": "bot",
+    "message": "We have two main E-Resource portals. Which one would you like to access?",
+    "timestamp": "2025-11-03T13:10:07.654538"
+  },
+  {
+    "role": "user",
+    "message": "Knowledge Portal (MBA)",
+    "timestamp": "2025-11-03T13:10:08.914454"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the link to the MBA Knowledge Portal: <a href='https://www.iitmjanakpuri-sdc.in/KnowledgePortal/index.php' target='_blank'>SDC Knowledge Portal Link</a>\n\nCan I help with anything else?",
+    "timestamp": "2025-11-03T13:10:08.914454"
+  },
+  {
+    "role": "user",
+    "message": "Ask a different question",
+    "timestamp": "2025-11-03T13:10:12.586529"
+  },
+  {
+    "role": "bot",
+    "message": "Of course. Please type your question below.",
+    "timestamp": "2025-11-03T13:10:12.586529"
+  },
+  {
+    "role": "user",
+    "message": "knowledge portal",
+    "timestamp": "2025-11-03T13:10:20.239386"
+  },
+  {
+    "role": "bot",
+    "message": "That's outside my current knowledge. Can I assist you with something else related to the college?",
+    "timestamp": "2025-11-03T13:10:21.813495"
+  },
+  {
+    "role": "user",
+    "message": "knowledge portal",
+    "timestamp": "2025-11-03T13:10:30.340001"
+  },
+  {
+    "role": "bot",
+    "message": "I'm not sure about that. Can you ask something else?",
+    "timestamp": "2025-11-03T13:10:30.344059"
+  },
+  {
+    "role": "user",
+    "message": "E-Resources",
+    "timestamp": "2025-11-03T13:10:41.741056"
+  },
+  {
+    "role": "bot",
+    "message": "We have two main E-Resource portals. Which one would you like to access?",
+    "timestamp": "2025-11-03T13:10:41.741056"
+  },
+  {
+    "role": "user",
+    "message": "Knowledge Portal (General)",
+    "timestamp": "2025-11-03T13:10:43.190699"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the link to the General Knowledge Portal: <a href='https://www.iitmjanakpuri-sdc.in/KnowledgePortal_General/index.php' target='_blank'>General Knowledge Portal Link</a>\n\nCan I help with anything else?",
+    "timestamp": "2025-11-03T13:10:43.190699"
+  }
+]

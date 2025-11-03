@@ -6,7 +6,8 @@
       { "text": "Admissions", "next_node": "admissions_menu" },
       { "text": "Contact", "next_node": "contact_menu" },
       { "text": "Placements", "next_node": "placements_menu" },
-      { "text": "Attendance", "next_node": "attendance_info" }
+      { "text": "Attendance", "next_node": "attendance_menu" },
+      { "text": "E-Resources", "next_node": "eresources_menu" }
     ]
   },
   "campus_menu": {
@@ -15,6 +16,7 @@
       { "text": "Infrastructure", "next_node": "infrastructure_info" },
       { "text": "Faculty", "next_node": "faculty_info" },
       { "text": "Canteen", "next_node": "canteen_info" },
+      { "text": "Library Information", "next_node": "library_info" },
       { "text": "Back to Main Menu", "next_node": "start" }
     ]
   },
@@ -22,6 +24,8 @@
     "message": "Sure, I can help with admissions. What would you like to know about?",
     "options": [
       { "text": "Admission Process", "next_node": "admission_process_info" },
+      { "text": "Eligibility", "next_node": "eligibility_menu" },
+      { "text": "Documents for Admission", "next_node": "documents_info" },
       { "text": "College Rankings", "next_node": "college_rankings_info" },
       { "text": "Fees Structure", "next_node": "fees_structure_info" },
       { "text": "Back to Main Menu", "next_node": "start" }
@@ -40,12 +44,24 @@
     "options": [
       { "text": "Placement Companies", "next_node": "placement_companies_info" },
       { "text": "Placement Packages", "next_node": "placement_packages_info" },
+      { "text": "Placement Statistics", "next_node": "placement_stats_menu" },
       { "text": "Placement Process", "next_node": "placement_process_info" },
       { "text": "Back to Main Menu", "next_node": "start" }
     ]
   },
+  "placement_stats_menu": {
+    "message": "I have the latest placement statistics. Which course are you interested in?",
+    "options": [
+      { "text": "MBA", "next_node": "final_placement_answer" },
+      { "text": "BBA", "next_node": "final_placement_answer" },
+      { "text": "B.Com (H)", "next_node": "final_placement_answer" },
+      { "text": "MCA", "next_node": "final_placement_answer" },
+      { "text": "BCA", "next_node": "final_placement_answer" },
+      { "text": "Back", "next_node": "placements_menu" }
+    ]
+  },
   "post_answer_menu": {
-    "message": "Can I help with anything else,If yes what is it?",
+    "message": "Can I help with anything else?",
     "options": [
         { "text": "Back to Main Menu", "next_node": "start" },
         { "text": "Ask a different question", "next_node": "faq_prompt" }
@@ -75,12 +91,32 @@
     "response": "The college canteen offers a variety of hygienic and affordable food options for students and staff.",
     "next_node": "post_answer_menu"
   },
-  "attendance_info": {
+  "library_info": {
+    "response": "You can find all information about the library, including book catalogs, e-resources, and timings, on the official library page: https://www.iitmjanakpuri.com/Library",
+    "next_node": "post_answer_menu"
+  },
+  "attendance_check_info": {
     "response": "Students are expected to maintain a minimum of 75% attendance. You can check your detailed attendance record by logging into the student portal on the college website.",
+    "next_node": "post_answer_menu"
+  },
+  "attendance_menu": {
+    "message": "I can help with attendance. What do you need to know?",
+    "options": [
+      { "text": "Check Attendance Policy", "next_node": "attendance_check_info" },
+      { "text": "Medical Information", "next_node": "attendance_medical_info" },
+      { "text": "Back to Main Menu", "next_node": "start" }
+    ]
+  },
+  "attendance_medical_info": {
+    "response": "In case of sickness, you must submit a valid medical certificate to the administration office within one week of rejoining classes. This is required to be considered for medical leave. Please contact your department head for the specific form.",
     "next_node": "post_answer_menu"
   },
   "admission_process_info": {
     "response": "The admission process is handled through the IPU portal. For detailed steps, please visit the official admissions page on our website.",
+    "next_node": "post_answer_menu"
+  },
+  "documents_info": {
+    "response": "Here is the complete list of required documents. Click the link to download the PDF: <a href='/static/admission_checklist.pdf' target='_blank'>Download Checklist (PDF)</a>",
     "next_node": "post_answer_menu"
   },
   "college_rankings_info": {
@@ -98,6 +134,42 @@
         {"text": "BAJMC", "next_node": "final_fee_answer"},
         {"text": "Back", "next_node": "admissions_menu"}
     ]
+  },
+  "eligibility_menu": {
+    "message": "Of course. Eligibility criteria are different for each program. Which one are you interested in?",
+    "options": [
+        {"text": "MBA", "next_node": "eligibility_mba"},
+        {"text": "MCA", "next_node": "eligibility_mca"},
+        {"text": "BCA", "next_node": "eligibility_bca"},
+        {"text": "BBA", "next_node": "eligibility_bba"},
+        {"text": "B.COM", "next_node": "eligibility_bcom"},
+        {"text": "BAJMC", "next_node": "eligibility_bajmc"},
+        {"text": "Back", "next_node": "admissions_menu"}
+    ]
+  },
+  "eligibility_mba": {
+    "response": "Any recognized 3 years or more Bachelor's Degree in any discipline with a minimum of 50% marks in aggregate.\nOR\nBachelor's Degree in Engineering, Technology or any other subject with minimum of 50% marks in aggregate or any qualification recognized as equivalent thereto with minimum of 50% marks in aggregate.\nOR\nPassed the Final Examination of the Institute of Chartered Accountants of India or England, the Institute of Cost and Works Accountants of India or England or the Institute of Company Secretaries of India.",
+    "next_node": "post_answer_menu"
+  },
+  "eligibility_mca": {
+    "response": "Passed BCA/B.Sc. (Computer Science)/B.Sc.(Technology) or equivalent or Passed at least 03 years Bachelors Degree with mathematics/statistics at 10+2 level or graduation level. Obtained at least 50% marks (45% marks in case of candidates belonging to reserved category) in the qualifying examinations.\nNote: These applicants, if admitted, may have to study additional bridge courses as per the norms of the University.",
+    "next_node": "post_answer_menu"
+  },
+  "eligibility_bca": {
+    "response": "Pass in 12th Class of 10+2 of CBSE or equivalent with a minimum of 50% marks in aggregate* with pass in English (core or elective or functional). Mathematics or Computer Science / or any other subject related to Computer Science.\nOR\nThree year Diploma in a branch of Engineering from a polytechnic duly approved by All India Council for Technical Education and affiliated to a recognized examining body with a minimum of 50% marks in aggregate.",
+    "next_node": "post_answer_menu"
+  },
+  "eligibility_bba": {
+    "response": "Pass in 12th Class of 10+2 of CBSE or equivalent with a minimum of 50% marks in aggregate* and must also have passed English (core or elective or functional) as a subject.",
+    "next_node": "post_answer_menu"
+  },
+  "eligibility_bcom": {
+    "response": "50% in aggregate in 10+2 examination / senior School Certificate Examination of C.B.S.E. as minimum marks for admission to B.Com with pass in five subjects (One language and four elective subjects) or an examination recognized as equivalent to that.\n(i) Pre-University Examination (Two years after ten years of schooling) of an Indian school / college. OR Intermediate Examination of an Indian University / Board or an Examination recognized as equivalent to that (Pass in five written subjects)\n(ii) Indian School Certificate Examination (12 years) conducted by the Council for the Indian School Certificate Examination, New Delhi (Pass in five written subjects).\n(iii) Examination of a foreign University / Board which is recognized as equivalent to 10+2 CBSE examination/or Indian University.",
+    "next_node": "post_answer_menu"
+  },
+  "eligibility_bajmc": {
+    "response": "Pass in 12th Class of 10+2 of CBSE or equivalent with a minimum of 50% marks in aggregate* and must also have passed English (core or elective or functional) as a subject.",
+    "next_node": "post_answer_menu"
   },
   "contact_us_info": {
     "response": "You can reach us at:\n- Phone: 011-28525882 / 28520239\n- Email: director@iitmipu.ac.in",
@@ -117,6 +189,22 @@
   },
   "placement_process_info": {
     "response": "Our placement process begins with pre-placement talks, followed by tests, group discussions, and personal interviews. The placement cell provides training for all stages.",
+    "next_node": "post_answer_menu"
+  },
+  "eresources_menu": {
+    "message": "We have two main E-Resource portals. Which one would you like to access?",
+    "options": [
+      { "text": "Knowledge Portal (MBA)", "next_node": "eresources_sdc" },
+      { "text": "Knowledge Portal (General)", "next_node": "eresources_general" },
+      { "text": "Back to Main Menu", "next_node": "start" }
+    ]
+  },
+  "eresources_sdc": {
+    "response": "Here is the link to the MBA Knowledge Portal: <a href='https://www.iitmjanakpuri-sdc.in/KnowledgePortal/index.php' target='_blank'>SDC Knowledge Portal Link</a>",
+    "next_node": "post_answer_menu"
+  },
+  "eresources_general": {
+    "response": "Here is the link to the General Knowledge Portal: <a href='https://www.iitmjanakpuri-sdc.in/KnowledgePortal_General/index.php' target='_blank'>General Knowledge Portal Link</a>",
     "next_node": "post_answer_menu"
   }
 }

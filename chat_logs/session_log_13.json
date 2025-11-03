@@ -1,0 +1,32 @@
+[
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-11-03T13:09:42.072556"
+  },
+  {
+    "role": "bot",
+    "message": "I'm here to help with college info - could you clarify your question?",
+    "timestamp": "2025-11-03T13:09:43.630604"
+  },
+  {
+    "role": "user",
+    "message": "E-Resources",
+    "timestamp": "2025-11-03T13:09:48.818440"
+  },
+  {
+    "role": "bot",
+    "message": "We have two main E-Resource portals. Which one would you like to access?",
+    "timestamp": "2025-11-03T13:09:48.818440"
+  },
+  {
+    "role": "user",
+    "message": "Knowledge Portal (MBA)",
+    "timestamp": "2025-11-03T13:09:49.863207"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the link to the MBA Knowledge Portal: <a href='https://www.iitmjanakpuri-sdc.in/KnowledgePortal/index.php' target='_blank'>SDC Knowledge Portal Link</a>\n\nCan I help with anything else?",
+    "timestamp": "2025-11-03T13:09:49.863207"
+  }
+]

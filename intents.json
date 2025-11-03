@@ -229,7 +229,6 @@
         "admit",
         "how to apply",
         "what are the steps for admission",
-        "eligibility criteria",
         "when is the last date to apply",
         "how can i get admission",
         "whats the procedure for admissions",
@@ -240,7 +239,6 @@
         "what's required for admission",
         "can I apply now?",
         "is admission open for next year?",
-        "documents needed for admission",
         "how to get admission",
         "what's the cutoff?",
         "entrance exam details",
@@ -281,6 +279,40 @@
         "Make sure to check the IPU admission portal for the latest requirements and deadlines for all courses.",
         "For eligibility criteria and the complete application process, please refer to the admissions section on our college website.",
         "The current admission cycle status and important dates can be found on the IPU online portal."
+      ]
+    },
+    {
+      "tag": "documents",
+      "patterns": [
+        "What documents are required for admission?",
+        "admission document list",
+        "What do I need to submit for admission?",
+        "list of required documents",
+        "admission checklist"
+      ],
+      "responses": [
+        "Here is the complete list of required documents. Click the link to download the PDF: <a href='/static/admission_checklist.pdf' target='_blank'>Admission Documents Checklist.pdf</a>"
+      ]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": [
+        "What is the eligibility criteria?",
+        "Am I eligible for admission?",
+        "What are the requirements for admission?",
+        "eligibility",
+        "how much percentage is required for admission",
+        "tell me about eligibility",
+        "eligibility for bca",
+        "eligibility for mca",
+        "eligibility for bba",
+        "eligibility for mba",
+        "eligibility for b.com",
+        "eligibility for bajmc"
+      ],
+      "responses": [
+        "Eligibility is different for each program. Could you please specify which program you are interested in (e.g., BCA, MBA)?",
+        "I can help with that. Which program's eligibility criteria would you like to know?"
       ]
     },
     {
@@ -335,6 +367,76 @@
       "responses": [
         "We offer a wide range of programs including BCA, MCA, BBA, MBA, B.Com and more. You can find detailed course information on our website.",
         "Our college provides diverse undergraduate and postgraduate courses. For a complete list and syllabi, please visit the academic section of our website."
+      ]
+    },
+    {
+      "tag": "placement_stats",
+      "patterns": [
+        "what are the placement stats",
+        "tell me about placement percentage",
+        "what is the average package for bca",
+        "average package mca",
+        "highest package for mba",
+        "bba placement statistics",
+        "b.com placement percentage",
+        "how good are the placements",
+        "package details",
+        "salary package",
+        "who recruits bca students",
+        "top recruiters for mba"
+      ],
+      "responses": [
+        "I have the latest placement stats for all programs. Which course are you interested in (e.g., BCA, MBA)?",
+        "Sure, I can help with that. Which program's placement data would you like to see?"
+      ]
+    },
+    {
+      "tag": "library",
+      "patterns": [
+        "how do I issue a book",
+        "library book issues",
+        "how to borrow a book from the library",
+        "can I take a book home",
+        "how many books can I issue",
+        "what is the fine for overdue books",
+        "overdue book fine",
+        "how to pay library fine",
+        "I lost a library book",
+        "what happens if I lose a library book",
+        "how do I return a book",
+        "where to return library books",
+        "can I renew my library book",
+        "how to reissue a book",
+        "book renewal process",
+        "library timings",
+        "when is the library open",
+        "library book search",
+        "how to find a book in the library",
+        "what is OPAC",
+        "how to use OPAC",
+        "library card",
+        "how to get a library card",
+        "book lending policy",
+        "library rules",
+        "borrowing books",
+        "returning books",
+        "library fine details",
+        "book issue process",
+        "can I issue a reference book",
+        "how long can I keep a book",
+        "duration for book issue",
+        "book checkout",
+        "library checkout process",
+        "where is the book drop",
+        "library account",
+        "how to check my library account",
+        "what books have I borrowed",
+        "tell me about the library",
+        "e-resources",
+        "how to access e-resources"
+      ],
+      "responses": [
+        "Here is the complete list of required documents. Click the link to download the PDF: <a href='/static/admission_checklist.pdf' target='_blank'>Download Checklist (PDF)</a>"
       ]
     },
     {
@@ -448,11 +550,6 @@
         "tuition for bba"
       ],
       "responses": [
-        "The fee structure for the BCA program is [BCA_FEE_AMOUNT]. For a full breakdown, please visit the college website.",
-        "The fee structure for the MCA program is [MCA_FEE_AMOUNT]. For a full breakdown, please visit the college website.",
-        "The fee structure for the BBA program is [BBA_FEE_AMOUNT]. For a full breakdown, please visit the college website.",
-        "The fee structure for the MBA program is [MBA_FEE_AMOUNT]. For a full breakdown, please visit the college website.",
-        "The fee structure for the B.Com program is [BCOM_FEE_AMOUNT]. For a full breakdown, please visit the college website.",
         "The fee structure varies by program. Please visit our fees page online or specify which course you're interested in.",
         "For detailed tuition fees, kindly check the 'Admissions' or 'Fees' section on our official college website.",
         "Our college provides various payment options. The fee details for each program are available on our website.",
@@ -696,9 +793,9 @@
         "facculty"
       ],
       "responses": [
-        "Our faculty comprises highly qualified and experienced professionals in their respective fields. You can find faculty profiles on the department pages of our website.https://www.iitmjanakpuri.com",
-        "Each department has dedicated professors and lecturers. If you have a specific faculty member in mind, I can try to direct you to their information on the website.https://www.iitmjanakpuri.com",
-        "The details of our esteemed faculty members are available in the 'Academics' or 'Departments' section of the college website.https://www.iitmjanakpuri.com"
+        "Our faculty comprises highly qualified and experienced professionals in their respective fields. You can find faculty profiles on the department pages of our website.",
+        "Each department has dedicated professors and lecturers. If you have a specific faculty member in mind, I can try to direct you to their information on the website.",
+        "The details of our esteemed faculty members are available in the 'Academics' or 'Departments' section of the college portal."
       ]
     },
     {
@@ -813,6 +910,19 @@
         "Our college is a premier institution affiliated with IP University, known for its academic excellence and holistic development. It was established in 1999.",
         "We aim to provide quality education and foster a vibrant learning environment. You can read more about our mission and vision on the 'About Us' section on our website.",
         "The college has a rich history of nurturing talent. Find out more about our journey and achievements on the official portal."
+      ]
+    },
+    {
+      "tag": "attendance_medical",
+      "patterns": [
+        "what if I am sick",
+        "how to submit medical certificate for attendance",
+        "attendance policy for medical leave",
+        "medical leave",
+        "I was sick and missed class"
+      ],
+      "responses": [
+        "In case of sickness, you must submit a valid medical certificate to the administration office within one week of rejoining classes. This is required to be considered for medical leave. Please contact your department head for the specific form."
       ]
     },
     {

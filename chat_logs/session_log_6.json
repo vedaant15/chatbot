@@ -1,0 +1,32 @@
+[
+  {
+    "role": "user",
+    "message": "Ask a different question",
+    "timestamp": "2025-11-03T09:54:38.059494"
+  },
+  {
+    "role": "bot",
+    "message": "I'm here to help with college info - could you clarify your question?",
+    "timestamp": "2025-11-03T09:54:38.081586"
+  },
+  {
+    "role": "user",
+    "message": "Campus",
+    "timestamp": "2025-11-03T09:54:39.749279"
+  },
+  {
+    "role": "bot",
+    "message": "I can provide information about our campus. What would you like to know about?",
+    "timestamp": "2025-11-03T09:54:39.749279"
+  },
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-11-03T09:54:55.368447"
+  },
+  {
+    "role": "bot",
+    "message": "Welcome to the College Virtual Assistant! \ud83e\udd16 I'm here to help. What would you like to know about?",
+    "timestamp": "2025-11-03T09:54:55.368447"
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "message": "E-Resources",
+    "timestamp": "2025-11-03T13:07:42.022655"
+  },
+  {
+    "role": "bot",
+    "message": "We have two main E-Resource portals. Which one would you like to access?",
+    "timestamp": "2025-11-03T13:07:42.022655"
+  },
+  {
+    "role": "user",
+    "message": "Knowledge Portal (MBA)",
+    "timestamp": "2025-11-03T13:07:43.108941"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the link to the SDC Knowledge Portal: <a href='https://www.iitmjanakpuri-sdc.in/KnowledgePortal/index.php' target='_blank'>SDC Knowledge Portal Link</a>\n\nCan I help with anything else?",
+    "timestamp": "2025-11-03T13:07:43.108941"
+  }
+]
