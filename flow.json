@@ -43,7 +43,6 @@
     "message": "Here is the information about placements. What do you want to know?",
     "options": [
       { "text": "Placement Companies", "next_node": "placement_companies_info" },
-      { "text": "Placement Packages", "next_node": "placement_packages_info" },
       { "text": "Placement Statistics", "next_node": "placement_stats_menu" },
       { "text": "Placement Process", "next_node": "placement_process_info" },
       { "text": "Back to Main Menu", "next_node": "start" }
@@ -181,10 +180,6 @@
   },
   "placement_companies_info": {
     "response": "We have a wide range of recruiting partners, including top companies like Amazon, Deloitte, and HCL. A full list is available here: https://www.iitmjanakpuri.com/placements/partners.php",
-    "next_node": "post_answer_menu"
-  },
-  "placement_packages_info": {
-    "response": "The average package offered last year was X LPA, with the highest package being Y LPA. Detailed statistics are available in our annual placement report.",
     "next_node": "post_answer_menu"
   },
   "placement_process_info": {

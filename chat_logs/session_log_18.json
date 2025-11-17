@@ -1,0 +1,42 @@
+[
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-11-17T23:15:06.758604"
+  },
+  {
+    "role": "bot",
+    "message": "My apologies, I'm still learning. Could you simplify your query?",
+    "timestamp": "2025-11-17T23:15:10.108779"
+  },
+  {
+    "role": "user",
+    "message": "Placements",
+    "timestamp": "2025-11-17T23:15:11.543285"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the information about placements. What do you want to know?",
+    "timestamp": "2025-11-17T23:15:11.543285"
+  },
+  {
+    "role": "user",
+    "message": "Placement Companies",
+    "timestamp": "2025-11-17T23:15:13.488430"
+  },
+  {
+    "role": "bot",
+    "message": "We have a wide range of recruiting partners, including top companies like Amazon, Deloitte, and HCL. A full list is available here: https://www.iitmjanakpuri.com/placements/partners.php\n\nCan I help with anything else?",
+    "timestamp": "2025-11-17T23:15:13.488430"
+  },
+  {
+    "role": "user",
+    "message": "Ask a different question",
+    "timestamp": "2025-11-17T23:15:16.278998"
+  },
+  {
+    "role": "bot",
+    "message": "Of course. Please type your question below.",
+    "timestamp": "2025-11-17T23:15:16.278998"
+  }
+]

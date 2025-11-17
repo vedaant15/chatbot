@@ -1,0 +1,52 @@
+[
+  {
+    "role": "user",
+    "message": "college",
+    "timestamp": "2025-11-17T23:08:51.317969"
+  },
+  {
+    "role": "bot",
+    "message": "I'm here to help with college info - could you clarify your question?",
+    "timestamp": "2025-11-17T23:08:54.313895"
+  },
+  {
+    "role": "user",
+    "message": "tell me about your college",
+    "timestamp": "2025-11-17T23:09:05.405988"
+  },
+  {
+    "role": "bot",
+    "message": "That's outside my current knowledge. Can I assist you with something else related to the college?",
+    "timestamp": "2025-11-17T23:09:05.412330"
+  },
+  {
+    "role": "user",
+    "message": "admission process",
+    "timestamp": "2025-11-17T23:09:20.373877"
+  },
+  {
+    "role": "bot",
+    "message": "Our admission process involves submitting necessary documents before the deadline. Details are available on the official IPU website.",
+    "timestamp": "2025-11-17T23:09:20.383685"
+  },
+  {
+    "role": "user",
+    "message": "Placements",
+    "timestamp": "2025-11-17T23:14:52.972697"
+  },
+  {
+    "role": "bot",
+    "message": "Here is the information about placements. What do you want to know?",
+    "timestamp": "2025-11-17T23:14:52.972697"
+  },
+  {
+    "role": "user",
+    "message": "Placement Packages",
+    "timestamp": "2025-11-17T23:14:54.825242"
+  },
+  {
+    "role": "bot",
+    "message": "The average package offered last year was X LPA, with the highest package being Y LPA. Detailed statistics are available in our annual placement report.\n\nCan I help with anything else?",
+    "timestamp": "2025-11-17T23:14:54.825242"
+  }
+]

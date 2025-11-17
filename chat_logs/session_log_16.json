@@ -1,0 +1,92 @@
+[
+  {
+    "role": "user",
+    "message": "Campus",
+    "timestamp": "2025-11-17T23:04:52.693776"
+  },
+  {
+    "role": "bot",
+    "message": "I can provide information about our campus. What would you like to know about?",
+    "timestamp": "2025-11-17T23:04:52.693776"
+  },
+  {
+    "role": "user",
+    "message": "Library Information",
+    "timestamp": "2025-11-17T23:04:53.984927"
+  },
+  {
+    "role": "bot",
+    "message": "You can find all information about the library, including book catalogs, e-resources, and timings, on the official library page: https://www.iitmjanakpuri.com/Library\n\nCan I help with anything else?",
+    "timestamp": "2025-11-17T23:04:53.984927"
+  },
+  {
+    "role": "user",
+    "message": "Back to Main Menu",
+    "timestamp": "2025-11-17T23:04:57.790982"
+  },
+  {
+    "role": "bot",
+    "message": "Welcome to the College Virtual Assistant! \ud83e\udd16 I'm here to help. What would you like to know about?",
+    "timestamp": "2025-11-17T23:04:57.790982"
+  },
+  {
+    "role": "user",
+    "message": "hi",
+    "timestamp": "2025-11-17T23:05:17.730652"
+  },
+  {
+    "role": "bot",
+    "message": "Good to see you! What's on your mind regarding the college?",
+    "timestamp": "2025-11-17T23:05:21.170537"
+  },
+  {
+    "role": "user",
+    "message": "tell me about the college",
+    "timestamp": "2025-11-17T23:05:30.954730"
+  },
+  {
+    "role": "bot",
+    "message": "I'm here to help with college info - could you clarify your question?",
+    "timestamp": "2025-11-17T23:05:30.963024"
+  },
+  {
+    "role": "user",
+    "message": "colege",
+    "timestamp": "2025-11-17T23:06:08.676008"
+  },
+  {
+    "role": "bot",
+    "message": "That's outside my current knowledge. Can I assist you with something else related to the college?",
+    "timestamp": "2025-11-17T23:06:08.680847"
+  },
+  {
+    "role": "user",
+    "message": "college",
+    "timestamp": "2025-11-17T23:06:15.612958"
+  },
+  {
+    "role": "bot",
+    "message": "Sorry, I didn't understand that. Could you please rephrase?",
+    "timestamp": "2025-11-17T23:06:15.618105"
+  },
+  {
+    "role": "user",
+    "message": "History of iitm",
+    "timestamp": "2025-11-17T23:06:56.190912"
+  },
+  {
+    "role": "bot",
+    "message": "Sorry, I didn't understand that. Could you please rephrase?",
+    "timestamp": "2025-11-17T23:06:56.202477"
+  },
+  {
+    "role": "user",
+    "message": "iitm",
+    "timestamp": "2025-11-17T23:07:04.421560"
+  },
+  {
+    "role": "bot",
+    "message": "My apologies, I'm still learning. Could you simplify your query?",
+    "timestamp": "2025-11-17T23:07:04.425090"
+  }
+]

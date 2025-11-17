@@ -250,18 +250,23 @@ def get_faq_response(user_input, session_id):
 
     # ML Prediction
     print(f"[DEBUG] Original user input for model: '{user_input}'")
-    processed_input = preprocess_text(user_input)
+    
+    # 1. Convert to lowercase BEFORE preprocessing
+    user_input_lower = user_input.strip().lower()
+    
+    # 2. Preprocess the lowercased input
+    processed_input = preprocess_text(user_input_lower)
     print(f"[DEBUG] Processed input for model: '{processed_input}'")
+    
     if not processed_input.strip():
         print("[DEBUG] Processed input is empty. Responding with 'unknown'.")
         return random.choice(next((i['responses'] for i in knowledge_base['intents'] if i['tag'] == 'unknown'), ["Could you please rephrase?"]))
-
+    
     user_input_vector = vectorizer.transform([processed_input])
     decision_scores = model.decision_function(user_input_vector)[0]
     best_intent_idx = np.argmax(decision_scores)
     confidence = decision_scores[best_intent_idx]
     predicted_tag = label_encoder.inverse_transform([best_intent_idx])[0]
-    
     CONFIDENCE_THRESHOLD = 0.5
 
     print(f"------------------------------------")
